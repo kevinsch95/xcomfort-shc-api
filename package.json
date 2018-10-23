@@ -1,5 +1,5 @@
 {
-  "name": "xcomfort-shc-api",
+  "name": "xcomfort-shc-api-test",
   "version": "0.0.0-development",
   "description": "node.js api for Xcomfort smart home controller",
   "main": "dist/Xcomfort.js",
