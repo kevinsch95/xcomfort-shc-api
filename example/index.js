@@ -13,7 +13,7 @@
 // =====
 
 // Import the module
-const Xcomfort = require('xcomfort-shc-api');
+const Xcomfort = require('xcomfort-shc-api-test');
 
 // First we need to create the config for the SHC
 //
@@ -25,7 +25,7 @@ const Xcomfort = require('xcomfort-shc-api');
 const config = {
   baseUrl: 'http://192.168.0.10', // The url to reach the SHC on your network
   username: 'user',               // The username to login to the system
-  password: '1234'                // The password for that user
+  password: '1234',                // The password for that user
   autoSetup: true                 // Defaults to true.
 }
 
@@ -36,7 +36,7 @@ const xapi = new Xcomfort(config);
 // The module extends nodes eventemitter, so we must listen for the 'error' event.
 // If we don't listen for this event, the app will crash whenever an error occures.
 // Handle errors as you want.
-xapi.on('error' (error) => {
+xapi.on('error', (error) => {
   console.log(error);
 });
 
