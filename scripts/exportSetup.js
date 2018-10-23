@@ -20,6 +20,7 @@ const generateConfig = () => {
     baseUrl: config.baseUrl,
     username: config.username,
     password: config.password,
+    remoteKey: config.remoteKey,
     autoSetup: true
   });
 
