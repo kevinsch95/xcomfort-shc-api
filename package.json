@@ -76,6 +76,6 @@
     ]
   },
   "bin": {
-    "xcomfort-exportSetup": "scripts/exportSetup.js"
+    "xcomfort-exportSetup": "./scripts/exportSetup.js"
   }
 }
